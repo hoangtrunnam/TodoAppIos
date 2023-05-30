@@ -31,6 +31,7 @@
 		A8B303CC2A1F70CD00B88C0D /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B303CB2A1F70CD00B88C0D /* LoginViewViewModel.swift */; };
 		A8B303CE2A1F70E800B88C0D /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B303CD2A1F70E800B88C0D /* RegisterViewViewModel.swift */; };
 		A8B303D02A1F711200B88C0D /* TodoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B303CF2A1F711200B88C0D /* TodoListItemViewViewModel.swift */; };
+		DB3BBCC52A26500A00EE76B1 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BBCC42A26500A00EE76B1 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		A8B303CB2A1F70CD00B88C0D /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		A8B303CD2A1F70E800B88C0D /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		A8B303CF2A1F711200B88C0D /* TodoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		DB3BBCC42A26500A00EE76B1 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				A8B303BB2A1F6E7100B88C0D /* RegisterView.swift */,
 				A8B303BD2A1F6ECB00B88C0D /* TodoListView.swift */,
 				5D8AD1D72A26012B0084718F /* HeaderView.swift */,
+				DB3BBCC42A26500A00EE76B1 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				A8B303CE2A1F70E800B88C0D /* RegisterViewViewModel.swift in Sources */,
 				A8B303C42A1F6FA600B88C0D /* MainViewViewModel.swift in Sources */,
 				A8B3039B2A1F61A200B88C0D /* MainView.swift in Sources */,
+				DB3BBCC52A26500A00EE76B1 /* TLButton.swift in Sources */,
 				A8B303BE2A1F6ECB00B88C0D /* TodoListView.swift in Sources */,
 				A8B303C62A1F6FE400B88C0D /* ProfileViewViewModel.swift in Sources */,
 				A8B303B62A1F6DF600B88C0D /* TodoListItemView.swift in Sources */,
