@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct LoginView: View {
+    @State var email = ""
+    @State var password = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HeaderView()
+            
+            Form {
+                TextField("email address", text: $email)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                SecureField("pass word", text: $password)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }
+            
+            Spacer()
+        }
+        
     }
 }
 
